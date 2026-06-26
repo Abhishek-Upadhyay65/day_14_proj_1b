@@ -1,5 +1,25 @@
 {
   "dependencies": {
     "express": "^5.2.1"
-  }
+  },
+  "name": "proj_1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+   "dev":"node index_2.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abhishek-Upadhyay65/day_14_proj_1b.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Abhishek-Upadhyay65/day_14_proj_1b/issues"
+  },
+  "homepage": "https://github.com/Abhishek-Upadhyay65/day_14_proj_1b#readme"
 }
