@@ -49,7 +49,18 @@ app.put("/students/:id",(req,res)=>{
         student
     });
 });
-// app.delete
+app.delete("/students/:id",(req,res)=>{
+    const id=req.params.id;
+    const student=students.find(s=> s.id==id);
+    if(!student){
+        return res.status(404).json({message:"invalid ID"});
+    }
+    students= students.filter(s=>s.id!=id);
+    res.json({
+        message:"record deleted",
+        students
+    })
+});
 
 app.listen(3000,()=>{
     console.log("server started");
